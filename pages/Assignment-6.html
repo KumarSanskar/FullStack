@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Practical 6</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      .heading {
+        color: white;
+        font-size: 34px;
+        font-family: 'Times New Roman';
+        text-align: center;
+      }
+      .container {
+        display: inline-flex;
+      }
+      .image {
+        border-radius: 15px;
+      }
+      img {
+        border-radius: 15px;
+        width: 100%;
+        height: 150px;
+      }
+      .button {
+        display: block;
+        margin-top: 10px;
+        font-family:'Times New Roman';
+        border-radius: 20px;
+        height: 35px;
+        background-color: red;
+        text-align: center;
+        padding-top: 8px;
+        text-decoration: none;
+        color: white;
+      }
+      .button:hover {
+        background-color: blue;
+      }
+      .card {
+        overflow: hidden;
+        width: 300px;
+        margin-right: 20px;
+        margin-left: 15px;
+        border: 2px;
+        border-radius: 15px;
+        background-color: white;
+        text-align: justify;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body style="background-color:silver">
+    <p class = "heading"><b>PRACTICAL-6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES</b></span>
+      <div class="container">
+      <div class="card" id="card-1">
+        <div class="image">
+        <img src="../pages/pages_for_assignment6/intro_html.png" alt="">
+      </div>
+        <h3 style="text-align:center">Introduction to HTML</h3>
+        HTML stands for Hypertext Markup Language, and it is the most widely used
+      language to write Web Pages.HTML was originally developed by Tim
+      Berners-Lee in 1990
+         <a href="../pages/pages_for_assignment5/aboutHTML.html" class="button" target="_blank">
+           <span><b>Read More</b></span>
+         </a>
+      </div>
+      <div class="card" id="card-2">
+        <div class="image">
+        <img src="../pages/pages_for_assignment6/intro_css.png" alt="">
+      </div>
+        <h3 style="text-align:center">Introduction to CSS</h3>
+        CSS stands for Cascading Style Sheets. It is a language designed to
+      specify the overall appearance of webpages as well as the appearance and
+      structure of the text and elements such as images.
+         <a href="../pages/pages_for_assignment5/aboutCSS.html" class="button" target="_blank">
+           <span><b>Read More</b></span>
+         </a>
+      </div>
+      <div class="card" id="card-3">
+        <div class="image">
+        <img src="../pages/pages_for_assignment6/intro_js.jpg" alt="">
+      </div>
+        <h3 style="text-align:center">Introduction to Javascript</h3>
+        JavaScript is one of the core technologies of the
+      World Wide Web. Over 97% of websites use it client-side for web page
+      behavior, often incorporating third-party libraries.
+         <a href="../pages/pages_for_assignment5/aboutJS.html" class="button" target="_blank">
+           <span><b>Read More</b></span>
+         </a>
+      </div>
+      <div class="card" id="card-4">
+        <div class="image">
+        <img src="../pages/pages_for_assignment6/intro_bootstrap.png" alt="">
+      </div>
+        <h3 style="text-align:center">Introduction to Bootstrap</h3>
+        Bootstrap is a free and open-source CSS framework directed at responsive,
+        mobile-first front-end web development. JavaScript engines were originally used only in web
+        browsers
+         <a href="../pages/pages_for_assignment5/aboutBS.html" class="button" target="_blank">
+           <span><b>Read More</b></span>
+         </a>
+      </div>
+    </div>
+    <br><br><br><br>
+    <hr>
+  </body>
+</html>
+
