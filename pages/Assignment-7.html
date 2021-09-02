@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment7</title>
+  <style>
+    .head{
+      height: 60px;
+      background-color: grey;
+    }
+    .banner{
+        height: 670px;
+        margin-bottom: 15px;
+        background-color: rgb(156, 207, 224);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: white;
+        margin-top: 10px;
+    }
+    .circle1{
+      display:flex;
+      height: 310px;
+      width: 300px;
+      border-radius: 50%;
+      background-color:goldenrod;
+      margin: 60px;
+      justify-content: center;
+      align-items: center;
+    }
+   
+    .section3{
+      display:flex;
+      height:100px;
+      width: 500px;
+      background-color: orangered;
+      margin: 60px;
+    }
+    #rectangle_container {
+        width: 100%;
+        margin: 15px auto;
+      }
+      #rectangle_container::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      .rectangle {
+        width: 20%;
+        height: 300px;
+        float: left;
+        margin-left: 50px;
+        background-color: orangered;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+      }
+
+      .footer {
+        background-color: hotpink;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: white;
+      }
+      .left-side {
+        width: 50%;
+        height: 550px;
+        background-color: gray;
+        float: left;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: white;
+      }
+
+      .right-side {
+        width: 48%;
+        height: 550px;
+        float: right;
+      }
+      .article {
+        height: 31%;
+        margin-bottom: 20px;
+        background-color: coral;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        overflow: hidden;
+      }
+ 
+  </style>
+</head>
+<body>
+    <div class="head" style="color:grey;">
+       <h2 style="text-align: center; font-size: 50px; color: white; font-family:sans-serif">Header</h2>
+    </div>
+    <div class="banner">
+      <h2 style=" margin-left: 20px; font-size: 50px;color: white; font-family:sans-serif">Banner</h2>
+    </div>
+    <h2 style="text-align: center; font-size: 30px;color:black; font-family:sans-serif">Section-1</h2> 
+   
+    <div class="section" style="display:flex;">
+      
+         <div class="circle1"></div>
+         <div class="circle1"></div> 
+         <div class="circle1"></div>
+        <div class="circle1"></div>
+    </div>
+    <div id="main-container">
+      <h2 style="text-align: center; font-size: 30px;color: black; font-family:sans-serif">Section-2</h2>
+      <div class="left-side">Main Article</div>
+      <div class="right-side">
+        <div class="article" ><h2>Article-1</h2></div>
+        <div class="article" ><h2>Article-2</h2></div>
+        <div class="article" ><h2>Article-3</h2>
+        </div>
+      </div>
+    </div>
+    <div id="rectangle_container">
+      <h1 style="text-align: center; font-size: 30px;  color: black; font-family:sans-serif">Setion-3</h1>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+      <div class="rectangle"></div>
+    </div>
+    <h1 style="text-align: center; font-size: 30px;color: black; font-family:sans-serif">Setion-4</h1>
+    <div class="footer">Footer</div>
+  </div>
+</body>
+</html>
