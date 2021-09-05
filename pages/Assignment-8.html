@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment8</title>
+    <style>
+      .head {
+        height: 50px;
+        background-color: silver;
+      }
+      .banner {
+        background-image: url("../pages/asets_for_assignment8/banner.png");
+        height: 670px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        font-size: 40px;
+        margin-top: 70px;
+      }
+      .section1 {
+        display: flex;
+        height: 250px;
+        width: 300px;
+        border-radius: 50%;
+        margin: 85px;
+      }
+
+      .section3 {
+        display: flex;
+        height: 100px;
+        width: 500px;
+        margin: 60px;
+      }
+      #rectangle-container {
+        
+        width: 100%;
+        margin: 15px auto;
+      }
+
+      .footer {
+        background-color: hotpink;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+      }
+      .left-side {
+        width: 52%;
+        height: 550px;
+        background-color: rgb(9, 174, 250);
+        float: left;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        color: white;
+      }
+
+      .right-side {
+        width: 48%;
+        height: 550px;
+        float: right;
+      }
+      .aticle {
+        height: 31%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        overflow: hidden;
+      }
+      .menu {
+        background-color: rgb(55, 70, 67);
+        text-align: center;
+        font-size: 28px;
+      }
+      .menu ul {
+        list-style: none;
+        display: inline-flex;
+      }
+      .menu ul li {
+        width: 200px;
+        margin: 8px;
+        padding: 15px;
+      }
+      .menu ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+      }
+      .fa {
+        margin-right: 5px;
+      }
+      .menu ul li :hover {
+        background-color: rgb(19, 241, 49);
+      }
+      .box {
+        width: 300px;
+        border: 3px solid black;
+        background-color: white;
+        padding: 20px;
+        text-align: justify;
+        padding: 10px;
+        margin-right: 20px;
+        border-radius: 20px;
+      }
+
+      #container {
+        display: inline-flex;
+        padding: 20px;
+        padding: 50px;
+        justify-content: center;
+        margin-left: 180px;
+      }
+      .box img {
+        width: 99%;
+        height: 200px;
+        border-radius: 20px;
+        border: 1px solid black;
+      }
+      .box h2 {
+        text-align: center;
+      }
+      .mybutton {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        font-family: Arial;
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 20px;
+      }
+      .mybutton:hover {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head" style="color: grey">
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="#top"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="#main-container"><i class="fa fa-user"></i>About Us</a>
+          </li>
+          <li>
+            <a href="#team"><i class="fa fa-server"></i>Team</a>
+          </li>
+          <li>
+            <a href="#container"><i class="fa fa-edit"></i>technologies</a>
+          </li>
+          <li>
+            <a href="#footer"><i class="fa fa-phone"></i>Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="banner">
+      <h1 style="color: white;">Assignment : 8</h1>
+    </div>
+    <h2 style="text-align: center; font-size: 30px; color: black">
+      Team Members
+    </h2>
+    <div id="team" class="section" style="display: flex">
+      <div
+        class="section1"
+        style="
+          background-image: url('../pages/asets_for_assignment8/man-logo.jpg');
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        "
+      ></div>
+      <div
+        class="section1"
+        style="
+          background-image: url('../pages/asets_for_assignment8/female2.jpg');
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        "
+      ></div>
+      <div
+        class="section1"
+        style="
+          background-image: url('../pages/asets_for_assignment8/female3.jpg');
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        "
+      ></div>
+      <div
+        class="section1"
+        style="
+          background-image: url('../pages/asets_for_assignment8/female4.png');
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        "
+      ></div>
+    </div>
+    <div id="main-container">
+      <h2 style="text-align: center; font-size: 30px; color: rgb(5, 4, 4)">
+        About Us
+      </h2>
+      <div class="left-side">
+        <h3>About Project</h3>
+        <p style="font-size: 28px">
+          Full-stack development refers to the development of both front end and
+          back end portions of an application. This web development process
+          involves all three-layer- Presentation layer (front end part that
+          deals with the user interface), Business Logic Layer (back end part
+          that deals with data validation) and the Database Layer. It takes care
+          of all the steps from the conception of an idea to the actual finished
+          product.
+          <br />
+          <br />
+          <br />
+          Having a specialist work on each of the different subsystems of the
+          web development process proves quite complex and expensive. Companies
+          are demanding full stack developers who are proficient in working
+          across multiple stacks.
+        </p>
+      </div>
+      <div class="right-side">
+        <div
+          class="aticle"
+          style="
+            background-image: url('../pages/asets_for_assignment8/project1.png');
+            background-position: center;
+            background-repeat: no-repeat;
+          "
+        ></div>
+        <div
+          class="aticle"
+          style="
+            background-image: url('../pages/asets_for_assignment8/project2.png');
+            background-position: center;
+            background-repeat: no-repeat;
+          "
+        ></div>
+        <div
+          class="aticle"
+          style="
+            background-image: url('../pages/asets_for_assignment8/project3.png');
+            background-position: center;
+            background-repeat: no-repeat;
+          "
+        ></div>
+      </div>
+    </div>
+    <br />
+    <h1 style="text-align: center; font-size: 30px; color: rgb(5, 4, 4)">
+      Technologies Used
+    </h1>
+    <div id="rectangle-container">
+      <div id="container">
+        <div class="box" id="box1">
+          <div class="images">
+            <img src="../pages/pages_for_assignment6/intro_html.png" alt="" />
+          </div>
+          <h2>About HTML</h2>
+          <p>
+            HTML stands for Hypertext Markup Language, and it is the most widely used
+            language to write Web Pages.HTML was originally developed by Tim
+            Berners-Lee in 1990
+          </p>
+          <div style="text-align: center">
+            <a href="../pages/pages_for_assignment5/aboutHTML.html" class="mybutton"> Read More </a>
+          </div>
+        </div>
+        <div class="box" id="box2">
+          <div class="images">
+            <img src="../pages/pages_for_assignment6/intro_css.png" width="700" height="300" alt="" />
+          </div>
+          <h2>About CSS</h2>
+          <p>
+            CSS stands for Cascading Style Sheets. It is a language designed to
+      specify the overall appearance of webpages as well as the appearance and
+      structure of the text and elements such as images.
+          </p>
+          <div style="text-align: center">
+            <a href="../pages/pages_for_assignment5/aboutCSS.html" class="mybutton"> Read More </a>
+          </div>
+        </div>
+        <div class="box" id="box3">
+          <div class="images">
+            <img src="../pages/pages_for_assignment6/intro_js.jpg" width="300" height="300" alt="" />
+          </div>
+          <h2>About JavaScript</h2>
+          <p>
+            JavaScript is one of the core technologies of the
+      World Wide Web. Over 97% of websites use it client-side for web page
+      behavior, often incorporating third-party libraries and other various things.
+          </p>
+          <div style="text-align: center">
+            <a href="../pages/pages_for_assignment5/aboutJS.html" class="mybutton"> Read More </a>
+          </div>
+        </div>
+        <div class="box" id="box4">
+          <div class="images">
+            <img src="../pages/pages_for_assignment6/intro_bootstrap.png" width="200" height="200" alt="" />
+          </div>
+          <h2>Abour Bootstrap</h2>
+          <p>
+            Bootstrap is a free and open-source CSS framework directed at responsive,
+        mobile-first front-end web development. JavaScript engines were originally used only in web
+        browsers
+          </p>
+          <div style="text-align: center">
+            <a href="../pages/pages_for_assignment5/aboutBS.html" class="mybutton">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+      <h1 style="text-align: center; font-size: 38px; color: rgb(5, 4, 4)">
+        Contact
+      </h1>
+      <div class="footer">
+        <div id="footer">
+          <p>
+            Website Template for Assignment-8 &copy;
+            <a href="https://git.io/Juq1i">KumarSanskar</a><br /><br />
+            <a href="#top">Back to top</a>
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
