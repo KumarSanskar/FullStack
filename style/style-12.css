@@ -1,0 +1,92 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+color: #333;
+}
+
+table {
+text-align: left;
+line-height: 20px;
+border-collapse: separate;
+border-spacing: 0;
+border: 2px solid #34495e;
+width: 80%;
+margin: 20px auto;
+border-radius: 5px;
+}
+/* header part css */
+thead tr:first-child {
+
+background: rgb(84, 84, 134);
+color: #fff;
+border: none;
+line-height: 60px;
+}
+/* header naming css */
+thead tr th:last-child {
+text-align: center;
+line-height: 50px;
+}
+thead tr th:nth-child(3) {
+padding-left: 20px;
+
+}
+
+th:first-child,
+td:first-child {
+padding: 0 20px 0 20px;
+}
+
+th {
+font-weight: bold;
+}
+
+thead tr:last-child th {
+border-bottom: 3px solid rgb(66, 64, 64);
+
+}
+
+tbody tr:hover {
+background-color: #d4dbe0;
+cursor: default;
+}
+
+tbody tr:last-child td {
+border: none;
+}
+tbody tr td:nth-child(1) {
+width: 60px;
+}
+tbody tr td:nth-child(2) {
+width: 500px;
+padding-right: 10px;
+}
+tbody tr td:nth-child(3) {
+padding-left: 10px;
+}
+/* line in betwwen table  */
+tbody td {
+border-bottom: 1px solid rgb(54, 50, 50);
+height: 50px;
+}
+
+td:last-child {
+text-align: center;
+}
+
+.deliver{
+color: green;
+} 
+i {
+
+color: rgb(43, 84, 146);
+}
+i:hover{
+
+color: rgb(45, 68, 170);
+}
